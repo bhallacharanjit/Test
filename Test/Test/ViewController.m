@@ -21,10 +21,12 @@
 }
 
 
--(void)newFunc {
-    NSLog( @"THis is a new function");
-}
 
+
+-(void)hello
+{
+    // hello 
+}
 
 - (void)didReceiveMemoryWarning
 {
