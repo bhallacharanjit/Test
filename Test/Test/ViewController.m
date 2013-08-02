@@ -18,7 +18,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self newFunc];
 }
+
+
+-(void)newFunc {
+    NSLog( @"THis is a new function");
+}
+
 
 - (void)didReceiveMemoryWarning
 {
